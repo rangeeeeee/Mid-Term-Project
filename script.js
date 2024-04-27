@@ -5,6 +5,11 @@ document.addEventListener("DOMContentLoaded", function() {
         section.style.display = "none";
     });
 
+    // 첫 번째 메뉴 항목에 해당하는 섹션을 기본적으로 표시합니다.
+    const firstMenuItem = document.querySelector("nav ul li a");
+    const initialSectionId = firstMenuItem.getAttribute("data-target");
+    document.getElementById(initialSectionId).style.display = "block";
+
     // 모든 메뉴 항목을 선택합니다.
     const menuItems = document.querySelectorAll("nav ul li a");
 
