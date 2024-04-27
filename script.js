@@ -20,4 +20,9 @@ document.addEventListener("DOMContentLoaded", function() {
             targetSection.style.display = "block";
         });
     });
+
+    // 첫 번째 메뉴 항목의 섹션을 기본적으로 표시합니다.
+    const firstMenuItem = menuItems[0];
+    const initialSectionId = firstMenuItem.dataset.target;
+    document.getElementById(initialSectionId).style.display = "block";
 });
