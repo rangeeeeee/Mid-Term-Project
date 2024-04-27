@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mid-term-project</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -14,40 +15,38 @@
         <h1>Welcome rang's page!</h1>
         <nav>
             <ul>
-                <li><a href="#about">자기소개</a></li>
-                <li><a href="#images">이미지</a></li>
-                <li><a href="#videos">동영상</a></li>
+                <li><a href="#" data-target="about">자기소개</a></li>
+                <li><a href="#" data-target="images">이미지</a></li>
+                <li><a href="#" data-target="videos">동영상</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <!-- 자기소개 섹션 -->
-        <section id="about">
+        <section id="about" style="display: none;">
             <h2>자기소개</h2>
-            <img src="Mid-Term-Project\image2.jpg" alt="증명사진" width="300">
-            <p>안녕하세요! 산업보안학과 이라경입니다.</p>
-            <img src="Mid-Term-Project\image.png" alt="이미지 설명" width="300">
-            <p>함께 살고있는 토끼 친구인 이글루</p>
+            <img src="image2.jpg" alt="증명사진" width="300">
+            <p>안녕하세요! 산업보안학과 입니다.</p>
+            <img src="image.png" alt="이미지 설명" width="300">
+            <p>함께 살고있는 토끼 친구인 </p>
         </section>
 
         <!-- 이미지 섹션 -->
-        <section id="images">
+        <section id="images" style="display: none;">
             <h2>My favorite picture</h2>
             <p>제가 좋아하는 이미지:</p>
-            <img src="Mid-Term-Project\image.png" alt="이미지 설명" width="300">
+            <img src="image.png" alt="이미지 설명" width="300">
         </section>
 
         <!-- 동영상 섹션 -->
-        <section id="videos">
+        <section id="videos" style="display: none;">
             <h2>My favorite video</h2>
             <p>제가 관심있는 동영상 링크입니다:</p>
             <ul>
                 <li><a href="https://www.youtube.com/watch?v=WFsAon_TWPQ" target="_blank">link</a></li>
             </ul>
         </section>
-
-        <!-- 기타 섹션 추가 가능 -->
     </main>
 
     <footer>
