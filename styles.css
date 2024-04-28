@@ -1,9 +1,8 @@
 
-
-
-
-main {
-    flex-basis: 75%;
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
 }
 
 nav ul {
