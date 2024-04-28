@@ -26,11 +26,21 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
- 
+    
     const titleLink = document.querySelector("h1 a");
 
-   
+    
     titleLink.addEventListener("click", function(event) {
+       
         
+        const baseSection = document.getElementById("base");
+        if (baseSection) {
+          
+            sections.forEach(function(section) {
+                section.style.display = "none";
+            });
+       
+            baseSection.style.display = "block";
+        }
     });
 });
