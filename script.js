@@ -5,7 +5,10 @@ document.addEventListener("DOMContentLoaded", function() {
         section.style.display = "none";
     });
 
-
+    const defaultSection = document.getElementById("base");
+    if (defaultSection) {
+        defaultSection.style.display = "block";
+    }
 
     const menuItems = document.querySelectorAll("nav ul li a");
 
