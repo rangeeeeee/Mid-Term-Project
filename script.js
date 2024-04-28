@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         defaultSection.style.display = "block";
     }
 
-    // 모든 메뉴 항목을 선택합니다.
+
     const menuItems = document.querySelectorAll("nav ul li a");
     menuItems.forEach(function(menuItem) {
         menuItem.addEventListener("click", function(event) {
