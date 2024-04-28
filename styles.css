@@ -1,8 +1,17 @@
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+    min-height: 100vh;
+}
 
 footer {
     position: fixed;
     bottom: 0;
     width: 100%; 
+}
+body {
+    padding-bottom: 50px;
 }
 
 nav ul {
