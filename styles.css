@@ -38,3 +38,8 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
 }
+
+.centered-gif {
+    display: block; 
+    margin: 20px auto; 
+}
