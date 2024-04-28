@@ -1,14 +1,9 @@
 
 .content-wrapper {
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content: center;
 }
 
-aside {
-    flex-basis: 20%;
-   
-}
 
 
 main {
