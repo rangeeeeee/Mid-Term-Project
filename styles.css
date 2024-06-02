@@ -11,6 +11,8 @@ footer {
     width: 100%; 
 }
 body {
+    background-color: #E6E6FA;
+    color: #483D8B;
     padding-bottom: 50px;
 }
 
