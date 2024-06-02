@@ -22,7 +22,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #808080; 
 }
 
 nav ul li {
@@ -35,6 +35,10 @@ nav ul li a {
     color: white;
     text-decoration: none;
     transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
 }
 
 nav ul li a:hover {
